@@ -1,0 +1,76 @@
+body{
+    background-color: pink;
+    
+}
+
+h1{
+    float: left;
+    font-size: 80px;
+    color: pink ;
+}
+
+#menu{
+    float: right;
+    margin-top: 40px;
+}
+
+#menu a{
+    padding: 20px 20px;
+    text-decoration: none;
+    color: pink;
+}
+
+#menu a:hover{
+    background-color: pink;
+    color: rgb(255, 91, 159);
+}
+
+p{
+    color: white;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+}
+header{
+    background-color: rgb(255, 91, 159);
+    height: 100px;
+    padding: 20px;
+}
+
+#principal{
+    background-image: url('img.jpeg');
+    background-size: 100%;
+    min-height: 400px;
+    padding: 80px 0 0 0;
+    clear: both;
+}
+h2{
+    color: white;
+    text-align: center;
+    margin: 0 0 50px 0;
+    text-shadow: 5px 1px 1px rgb(255, 91, 159);
+}
+
+footer{
+    clear: both;
+    background-color: rgb(255, 91, 159);
+    color: pink;
+    min-height: 10px;
+    text-align: center;
+    padding: 10px;
+}
+
+.container{
+    width: 960px;
+    margin: auto;
+}
+
+.efeito{
+    background-color: rgba(0,0,0,0.5);
+    padding: 70px 0 70px 0 ;
+}
